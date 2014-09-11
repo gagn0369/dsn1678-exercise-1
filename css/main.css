@@ -14,6 +14,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  background-color: #e2e2e2;
 }
 
 *, *:before, *:after {
@@ -23,11 +25,16 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: #fff;
 }
 
 img {
   display: block;
   width: 100%;
+}
+
+.main {
+  background-color: white;
 }
 
 /* PHOTO & CAPTION */
@@ -62,6 +69,7 @@ img {
 .h1{
   font-size: 1.25em;
   color: #382613;
+  margin-top: -1em;
 }
 
 .h2{
@@ -70,9 +78,6 @@ img {
   text-transform: uppercase;
 }
 
-.hp{
-
-}
 
 /* COLUMNS */
 
@@ -83,10 +88,14 @@ img {
 .col{
   width: 28%;
   margin: 0.5em;
+  padding-left: 1em;
+  border-left: solid 1px #ccc;
 }
 
 .col-left{
   float: left;
+  border-left: 0;
+  padding-left: 0;
 }
 
 .col-middle{
